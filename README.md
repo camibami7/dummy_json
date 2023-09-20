@@ -1,35 +1,27 @@
-# Next.js + Jest
+# Getting Started with Dummy JSON API
 
-This example shows how to configure Jest to work with Next.js.
+# npm i
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+Get all dependencies
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+# npm run dev
 
-## Deploy your own
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+The page will reload if you make edits.
+You will also see any errors in the console.
 
-## How to Use
+ps. check it out on mobile as well
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+# npm run test
 
-In your terminal, run the following command:
+Runs all of the tests and watches them and reloads on save
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
+# npm run test:coverage
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+Runs all of the tests and gets the % of code tested
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
+# npm run prettier
 
-## Running Tests
-
-```bash
-npm test
-```
+Runs prettier on all files
