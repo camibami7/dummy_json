@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Diligent Take Home</title>
+                <title>Dummy JSON</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
